@@ -1,6 +1,11 @@
 # Heroes of the Storm Replay Analyzer
 
-This repository contains scripts to analyze replay files from the game Heroes of the Storm. The scripts extract player statistics and save them in a structured format for further analysis.
+This repository contains scripts written in Bash and Python to analyze replay files from the game Heroes of the Storm. The scripts extract player statistics and save them in a structured format for further analysis.
+
+## Languages Used
+
+- **Bash**: For the shell script that automates the extraction of player statistics from replay files.
+- **Python**: For the data processing script that reads and structures the extracted data into a CSV file.
 
 ## Prerequisites
 
@@ -8,6 +13,15 @@ This repository contains scripts to analyze replay files from the game Heroes of
 - .NET Core SDK (for running the `heroes-decode` command)
 - Python   3.x (for running the Python script)
 - Pandas library (Python package)
+
+## Installation
+
+To install the required Python packages, run the following command:
+
+bash pip install pandas==1.3.4
+
+
+Make sure to install the correct version of `pandas` as specified above.
 
 ## Usage
 
@@ -53,3 +67,7 @@ If you would like to contribute to this project, please fork the repository and 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+**Created by Phind**
