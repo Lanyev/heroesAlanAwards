@@ -11,7 +11,7 @@ This repository contains scripts written in Bash and Python to analyze replay fi
 
 - Bash shell (for running the bash script)
 - .NET Core SDK (for running the `heroes-decode` command)
-- Python   3.x (for running the Python script)
+- Python   3.x (for running the Python script) Im using Pyton 3.10
 - Pandas library (Python package)
 
 ## Installation

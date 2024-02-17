@@ -1,5 +1,6 @@
 import pandas as pd
 
+# Read the CSV file into a DataFrame - Change the file name to the one you want to process 
 df = pd.read_csv("outputFinal.csv")
 
 # Initialize variables
