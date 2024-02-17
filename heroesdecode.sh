@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Define the directory where your replay files are located
-replay_dir="C:\\Users\\lanye\\OneDrive\\Documentos\\Heroes of the Storm\\Accounts\\860012555\\1-Hero-1-11283694\\Replays\\Multiplayer"
+script_dir="$(dirname "$BASH_SOURCE")"
+replay_dir="$script_dir"
 
 # Create an empty output CSV file
 output_csv="combined_output.csv"
